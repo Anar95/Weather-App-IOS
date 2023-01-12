@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CoreLocationUI
 
 struct WelcomeView: View {
     @EnvironmentObject var locationManager:
@@ -25,14 +26,22 @@ struct WelcomeView: View {
             .multilineTextAlignment(.center)
             .padding()
         
+           
+            LocationButton(.shareCurrentLocation){
+                locationManager.requestLocation()
+                
+            }
+            .cornerRadius(30)
+            .symbolVariant(.fill)
+            .foregroundColor(.white)
+            
             
         }
         
-            .frame(maxWidth: .infinity, maxHeight: : .infinity)
+        
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
-    
-    
-}
+    }
 
 
 struct WelcomeView_Previews: PreviewProvider {
