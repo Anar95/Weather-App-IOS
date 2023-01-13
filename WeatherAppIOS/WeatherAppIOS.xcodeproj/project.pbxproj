@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79302FB12971E1DA003EFAC2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79302FB02971E1DA003EFAC2 /* LoadingView.swift */; };
 		79ABCAAD2970A72300A1439E /* WeatherAppIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ABCAAC2970A72300A1439E /* WeatherAppIOSApp.swift */; };
 		79ABCAAF2970A72300A1439E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ABCAAE2970A72300A1439E /* ContentView.swift */; };
 		79ABCAB12970A72400A1439E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79ABCAB02970A72400A1439E /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79302FB02971E1DA003EFAC2 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		79ABCAA92970A72300A1439E /* WeatherAppIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAppIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79ABCAAC2970A72300A1439E /* WeatherAppIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppIOSApp.swift; sourceTree = "<group>"; };
 		79ABCAAE2970A72300A1439E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			children = (
 				79ABCAAE2970A72300A1439E /* ContentView.swift */,
 				79ABCADB2970ABFD00A1439E /* WelcomeView.swift */,
+				79302FB02971E1DA003EFAC2 /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				79ABCAAF2970A72300A1439E /* ContentView.swift in Sources */,
 				79ABCAAD2970A72300A1439E /* WeatherAppIOSApp.swift in Sources */,
 				79ABCAD92970A78D00A1439E /* LocationManager.swift in Sources */,
+				79302FB12971E1DA003EFAC2 /* LoadingView.swift in Sources */,
 				79ABCADC2970ABFD00A1439E /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
